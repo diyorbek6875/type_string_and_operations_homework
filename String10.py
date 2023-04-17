@@ -7,4 +7,9 @@ def main(x,y):
     Returns:
         str: return answer.
     """
-    return 
+    c=x*y
+
+    return f"({x}+{y})*2={2*c}"
+x=int(input())
+y=int(input())
+print(main(x,y))
