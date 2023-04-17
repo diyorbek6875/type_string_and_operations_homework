@@ -8,4 +8,10 @@ def main(x1,x2,x3):
     Returns:
         str: return answer.
     """
-    return 
+
+    return f'[{x1}, {x2}, {x3}]'
+x1=int(input())
+x2=int(input())
+x3=int(input())
+
+print(main(x1,x2,x3))
